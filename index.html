@@ -21,6 +21,26 @@
                     <input class="form-control" id="lastName" aria-describedby="lnHelp"/>
                     <small id="lnHelp">Last name should begin with an uppercase letter.</small>
                 </div>
+                <div class="form-group">
+                    <label for="socialSecurityNumber">Social Security Number:</label>
+                    <input class="form-control" id="socialSecurityNumber" aria-describedby="snHelp" style="-webkit-text-security: circle"/>
+                    <small id="snHelp">Social Security should be in the following format (ex. 123-45-6789 or 123,45,6789 or 123456789).</small>
+                </div>
+                <div class="form-group">
+                    <label for="emailInformation">Email:</label>
+                    <input class="form-control" id="emailInformation" aria-describedby="eiHelp"/>
+                    <small id="eiHelp">Email should be in the following format (ex. user@domain.com|net|org) where user and domain can be alphanumeric characters.</small>
+                </div>
+                <div class="form-group">
+                    <label for="userName">Username:</label>
+                    <input class="form-control" id="userName" aria-describedby="unHelp"/>
+                    <small id="unHelp">Username should be 7-12 alphanumeric characters and must contain at least 1 number.</small>
+                </div>
+                <div class="form-group">
+                    <label for="passwordField">Password:</label>
+                    <input class="form-control" id="passwordField" aria-describedby="pwHelp"/>
+                    <small id="pwHelp">Password should contain at least 1 uppercase letter, at least 1 lowercase letter, at least 1 number, at least 1 special character and should be between 9 and 15 characters long.</small>
+                </div>
                 <script src="./main.js"></script>
             </form>
         </div>
